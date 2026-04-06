@@ -14,9 +14,9 @@ What machine learning method would be appropriate for this problem, and why? Als
 
 # Deliverable 2: The Random Forest Method
 
-When describing the bean problem and the goals of this assignment to the LLM, it suggested I use the random forest method. I asked follow questions such as: How does the random forest method work; Why is the random forest method appropriate for this problem; and how can I make a confusion matrix with this imfortmation. Below is a summary (written by Chat GTP) of what it told me:
+When describing the bean problem and the goals of this assignment to the LLM, it suggested I use the random forest method. I asked follow questions such as: How does the random forest method work; Why is the random forest method appropriate for this problem; and How can I make a confusion matrix with this imfortmation? Below is a summary (written by Chat GTP) of what it told me:
 
-The suggested method was Random Forest, which is an ensemble learning method based on decision trees.
+*The suggested method was Random Forest, which is an ensemble learning method based on decision trees.
 
 A Random Forest works by:
 - Creating many decision trees using random subsets of the data
@@ -34,7 +34,7 @@ Validation Strategy
 The standard approach is:
 - Split the dataset into training (70%) and validation/testing (30%)
 - Train the model on training data
-- Evaluate using a confusion matrix on test data
+- Evaluate using a confusion matrix on test data*
 
 # Deliverable 3: Confusion Matrix
 
