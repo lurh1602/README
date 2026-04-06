@@ -24,9 +24,9 @@ When describing the bean problem and the goals of this assignment to the LLM, it
 
 *- Each tree makes a prediction*
 
-*- The final prediction is determined by a majority vote
+*- The final prediction is determined by a majority vote*
 
-“Random forests reduce overfitting by averaging multiple decision trees and improve predictive accuracy.”*
+*“Random forests reduce overfitting by averaging multiple decision trees and improve predictive accuracy.”*
 
 *Why Random Forest is appropriate:*
 
