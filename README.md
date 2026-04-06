@@ -19,21 +19,33 @@ When describing the bean problem and the goals of this assignment to the LLM, it
 *The suggested method was Random Forest, which is an ensemble learning method based on decision trees.*
 
 *A Random Forest works by:*
+
 *- Creating many decision trees using random subsets of the data*
+
 *- Each tree makes a prediction*
+
 *- The final prediction is determined by a majority vote
+
 “Random forests reduce overfitting by averaging multiple decision trees and improve predictive accuracy.”*
 
 *Why Random Forest is appropriate:*
+
 *- The problem is classification, which Random Forest handles well*
+
 *- It works with multiple features without needing heavy preprocessing*
+
 *- It handles correlated inputs better than a single decision tree*
+
 *- It provides feature importance, which helps interpret the model*
 
 *Validation Strategy*
+
 *The standard approach is:*
+
 *- Split the dataset into training (70%) and validation/testing (30%)*
+
 *- Train the model on training data*
+
 *- Evaluate using a confusion matrix on test data*
 
 # Deliverable 3: Confusion Matrix
