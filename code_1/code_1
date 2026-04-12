@@ -44,11 +44,3 @@ title('Confusion Matrix - Random Forest');
 accuracy = sum(Y_pred == Y_test) / numel(Y_test);
 fprintf('Accuracy: %.2f%%\n', accuracy * 100);
 
-%% 7. Feature Importance
-figure;
-bar(model.OOBPermutedPredictorDeltaError);
-xticks(1:width(X));
-xticklabels(X.Properties.VariableNames);
-xtickangle(45);
-ylabel('Importance');
-title('Feature Importance');
