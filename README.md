@@ -52,12 +52,37 @@ Confusion Matrix Observations/Discussions:
 - MATLAB reported the accuracy of the model to be 91.65%.
 - The Bombay bean was the most accurately predicted bean, with only one bean incorrectly predicted to be a Bombay bean.
 - The SIRA bean was the least accurate predicted bean, with 122 beans inaccurately predicted to be SIRA beans.
-- The Dermason and SIRA beans have the most similar properties.
+- The Dermason and SIRA beans have the most similar properties and were frequently mixed up (162 misidentified SIRA/Dermason beans for each other)
 
 
 
 # Deliverable 4: Tuning the Model
 
+My initial accuracy was already pretty decent. It was significantly higher than 80%, which was stated in the prompt that the model may never resonably get above. Neither me or the LLM could come up with significant ways to improve the model, so I decided to shoot for a smaller improvement (~1% more accuracy). This was achieved by adjusting hyperparameters, such as the number of trees and the minimum leaf size, and normalizing the data.
+The changes made to the code include:
+- Increasing the number of trees from 100 to 300
+- Creating a minimum leaf size of 5 to avoid overfitting (memorizing the data)
+- And normalizing the x-data so bean features were taking into account more evenly
+
+
+<img width="1330" height="632" alt="MCEN 3030 project 3" src="https://github.com/user-attachments/assets/af619b0e-9582-4a2e-b840-691c3e89ac69" />
+
+
+Observations/Comparing the models:
+- The accuracy of the refined model was 92.82%, a 1.17% increase from the previous model
+- Only 98 beans were misidentified as SIRA beans (a 24 bean improvement)
+- No beans were misidentified as Bombay (though one Bombay bean was misidentified as a Barbunya)
+- Though the two beans that were the most switched up were the SIRA and Dermason beans, the improved model was better at distinguishing between them (a 31 bean improvement)
+
 
 
 # Deliverable 5: Feature Importance Plot
+
+
+<img width="1293" height="638" alt="MCEN 3030 project 4" src="https://github.com/user-attachments/assets/1da311d3-ca4e-46a8-8038-7acceb556d7f" />
+
+
+Observations:
+- Roundness, compactness, and shape factor 4 were the three most important features when identifying bean types.
+- Eccentricity, equivalent diameter, and shape factor 3 were not relevant at all when identifying bean types.
+- Area, perimeter, and major axis length were moderately important for sorting beans.
