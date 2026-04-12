@@ -42,9 +42,17 @@ When describing the bean problem and the goals of this assignment to the LLM, it
 
 # Deliverable 3: Confusion Matrix
 
-<img width="1303" height="646" alt="MCEN 3030 LLM project 2" src="https://github.com/user-attachments/assets/bc7b9c96-0c40-45f2-8d08-2ffa6b9b4f56" />
 
 <img width="1447" height="633" alt="MCEN 3030 LLM project 1" src="https://github.com/user-attachments/assets/e11a19ee-b2d3-45f4-9dd9-b3dbce8abedf" />
+
+
+Confusion Matrix Observations/Discussions:
+- The first model used n=100 trees.
+- The majority of the bean predictions fall along the diagonal of the matrix, meaning the model was fairly accurate.
+- MATLAB reported the accuracy of the model to be 91.65%.
+- The Bombay bean was the most accurately predicted bean, with only one bean incorrectly predicted to be a Bombay bean.
+- The SIRA bean was the least accurate predicted bean, with 122 beans inaccurately predicted to be SIRA beans.
+- The Dermason and SIRA beans have the most similar properties.
 
 
 
