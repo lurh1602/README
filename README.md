@@ -42,6 +42,10 @@ When describing the bean problem and the goals of this assignment to the LLM, it
 
 # Deliverable 3: Confusion Matrix
 
+<img width="1303" height="646" alt="MCEN 3030 LLM project 2" src="https://github.com/user-attachments/assets/bc7b9c96-0c40-45f2-8d08-2ffa6b9b4f56" />
+
+<img width="1447" height="633" alt="MCEN 3030 LLM project 1" src="https://github.com/user-attachments/assets/e11a19ee-b2d3-45f4-9dd9-b3dbce8abedf" />
+
 
 
 # Deliverable 4: Tuning the Model
